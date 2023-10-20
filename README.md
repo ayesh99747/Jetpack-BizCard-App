@@ -15,5 +15,5 @@ This app was developed for android API 34.
 The following are screenshots of the app.
 
 <img src="/images/screenshot-1.png" width="300" height="550">
-<img src="/images/screenshot-1.png" width="300" height="550">
+<img src="/images/screenshot-2.png" width="300" height="550">
 <img src="/images/Screenshot-3.png" width="300" height="550">
