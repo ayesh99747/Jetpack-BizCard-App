@@ -1,11 +1,13 @@
 package com.example.myapplication
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
@@ -15,7 +17,9 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.CornerSize
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Divider
@@ -85,14 +89,44 @@ fun CreateBizCard(){
                 horizontalAlignment = Alignment.CenterHorizontally) {
                 CreateImageProfile()
                 Divider(thickness = 5.dp, color = Color.Blue)
-
-
-
+                CreateInfo()
+                Button(
+                    onClick = {
+                        Log.d("Clicked", "Clickedddd")
+                    }
+                ) {
+                    // Label for the button.
+                    Text(text = "Portfolio", style = MaterialTheme.typography.labelLarge)
+                }
             }
 
         }
     }
 }
+
+
+@Composable
+private fun CreateInfo(){
+    Column (
+        modifier = Modifier.padding(5.dp)
+    ) {
+        Text(
+            text = "Miles P.",
+            style = MaterialTheme.typography.titleLarge,
+            color = Color.Blue
+        )
+        Text(
+            text = "Android Compose Programmer",
+            modifier = Modifier.padding(3.dp)
+        )
+        Text(
+            text = "@TheMilesCompose",
+            modifier = Modifier.padding(3.dp),
+            style = MaterialTheme.typography.titleSmall
+        )
+    }
+}
+
 
 @Composable
 private fun CreateImageProfile() {
