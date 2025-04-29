@@ -123,12 +123,22 @@ If you are the content owner and would like this repository modified or removed,
 
 Refer to the Android Studio error messages and logs for debugging help.  If you encounter issues, ensure your environment is correctly setup, including Java, Android SDK, and Android Studio.  Check the Gradle sync to confirm all dependencies are correctly resolved.
 
+## Screenshots
 
-## Images
-
-The following screenshots illustrate the app's UI:
-
+<p align="center">
 <img src="images/screenshot-1.png" width="300" height="550">
-<img src="images/screenshot-2.png" width="300" height="550">
-<img src="images/Screenshot-3.png" width="300" height="550">
+<br>
+<em>Figure 1: Home Screen of the app without the portfolio.</em>
+</p>
 
+<p align="center">
+<img src="images/screenshot-2.png" width="300" height="550">
+<br>
+<em>Figure 2: Screenshot of the app with the portfolio.</em>
+</p>
+
+<p align="center">
+<img src="images/screenshot-3.png" width="300" height="550">
+<br>
+<em>Figure 3: Screenshot of the app with the portfolio.</em>
+</p>
