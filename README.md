@@ -138,7 +138,7 @@ Refer to the Android Studio error messages and logs for debugging help.  If you 
 </p>
 
 <p align="center">
-<img src="images/screenshot-3.png" width="300" height="550">
+<img src="images/Screenshot-3.png" width="300" height="550">
 <br>
 <em>Figure 3: Screenshot of the app with the portfolio.</em>
 </p>
